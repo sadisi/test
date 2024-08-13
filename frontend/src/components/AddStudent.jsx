@@ -26,10 +26,10 @@ export default function AddStudent() {
 
 
   return (
-    <div className="container" style={{maxWidth:500, alignItems:'center'}}>
+    <div className="container " style={{maxWidth:500, alignItems:'center', marginTop:50} }>
       
       <form>
-  <div class="mb-3">
+  <div class="mb-3 mt-0">
     <label for="name" class="form-label">Name</label>
     <input type="text" class="form-control" id="nameInput" aria-describedby="namelHelp" placeholder="Enter Student Name" 
     onChange={(e)=>{
